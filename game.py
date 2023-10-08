@@ -26,5 +26,5 @@ class Game:
                 Game.world[new_y][new_x] = symbol
     
     @staticmethod
-    def __delete_from_map(x: int, y: int): # delete some symbol on x, y
+    def __delete_from_map(x: int, y: int): # delete any symbol on x, y
         Game.world[y][x] = Char.EMPTY
