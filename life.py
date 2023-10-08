@@ -56,7 +56,7 @@ class Life:
         pass
         
     def set_on_map(self, new_x: int, new_y: int, anyway: bool = False):
-        Game.set_on_map(new_x, new_y, self.symbol, anyway)
+        self.x, self.y = Game.set_on_map(new_x, new_y, self.symbol, anyway)
     
     def random_start_pos(self):
         new_x, new_y = randint(0, Const.WIDTH-1), randint(0, Const.HEIGHT-1)
