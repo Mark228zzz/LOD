@@ -1,10 +1,20 @@
 from vars import *
+from time import sleep
 
 
 class Game:
     world = [[Char.EMPTY for i in range(Const.WIDTH)] for i in range(Const.HEIGHT)] # 2d world
     info = '' # this var will be under print world. Info for set some text (informations)
 
+    @staticmethod
+    def delta_time_method(method):
+        def wrapper(*args, **kwargs):
+            sleep(Const.DELTA_TIME)
+            method(*args, **kwargs)
+            return method
+        return wrapper
+    
+    @delta_time_method
     @staticmethod
     def loop():
         for life in List.list_of_lifes:
