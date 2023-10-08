@@ -1,5 +1,6 @@
 from vars import *
 from random import randint
+from game import Game
 
 
 class Life:
@@ -17,7 +18,7 @@ class Life:
             pass
         
     def set_on_map(self, new_x: int, new_y: int, anyway: bool = False):
-        pass
+        Game.set_on_map(new_x, new_y, self.symbol, anyway)
     
     def random_start_pos(self):
         new_x, new_y = randint(0, Const.WIDTH-1), randint(0, Const.HEIGHT-1)

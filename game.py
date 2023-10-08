@@ -15,3 +15,16 @@ class Game:
     @staticmethod
     def __clear_screen():
         print('\n' * Const.CLEAR_SCREEN_VALUE)
+        
+    @staticmethod
+    def set_on_map(new_x: int, new_y: int, symbol: str, cur_x: int = 0, cur_y: int = 0, anyway: bool = False):
+        if anyway:
+            Game.world[new_y][new_x] = symbol
+        else:
+            if Game.world[new_y][new_x] == Char.EMPTY:
+                Game.__delete_from_map(cur_x, cur_y)
+                Game.world[new_y][new_x] = symbol
+    
+    @staticmethod
+    def __delete_from_map(x: int, y: int): # delete some symbol on x, y
+        Game.world[y][x] = Char.EMPTY
