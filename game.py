@@ -36,6 +36,7 @@ class Game:
     @staticmethod
     def set_on_map(new_x: int, new_y: int, symbol: str, cur_x: int = 0, cur_y: int = 0, anyway: bool = False):
         if anyway:
+            Game.__delete_from_map(cur_x, cur_y)
             Game.world[new_y][new_x] = symbol
             return new_x, new_y
         else:
