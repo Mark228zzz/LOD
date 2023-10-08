@@ -41,11 +41,15 @@ class Life:
     
     def random_move(self):
         new_x, new_y = self.x, self.y
-        match choice(['x', 'y']):
-            case 'x':
-                new_x += choice([1, -1])
-            case 'y':
-                new_y += choice([1, -1])
+        match (choice(['x', 'y']), choice([1, -1])):
+            case ('x', 1):
+                new_x += 1
+            case ('x', -1):
+                new_x -= 1
+            case ('y', 1):
+                new_y += 1
+            case ('y', -1):
+                new_y -= 1
         self.set_on_map(new_x, new_y)
         
     def find_food(self):
