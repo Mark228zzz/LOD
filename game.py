@@ -6,6 +6,13 @@ class Game:
     info = '' # this var will be under print world. Info for set some text (informations)
 
     @staticmethod
+    def loop():
+        for life in List.list_of_lifes:
+            life.loop()
+        
+        Game.print_world()
+    
+    @staticmethod
     def print_world(): # print world. Wigth by height
         Game.__clear_screen()
         for i in reversed(Game.world):

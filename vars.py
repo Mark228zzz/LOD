@@ -5,3 +5,6 @@ class Const:
 
 class Char:
     EMPTY = '.' # symbol that will fill the whole world
+
+class List:
+    list_of_lifes = [] # only alive

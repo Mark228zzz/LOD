@@ -5,15 +5,15 @@ from random import choice
 
 
 class Life:
-    def __init__(self, name: str, symbol: str, x: int = 0, y: int = 0, alive: bool = True, random_start_pos: bool = False):
+    def __init__(self, name: str, symbol: str, x: int = 0, y: int = 0, alive: bool = True, random_start_pos_var: bool = False):
         self.name = name
         self.symbol = symbol
         self.x, self.y = x, y
         self.satiety = 15
         self.alive = alive
-        self.random_start_pos = random_start_pos
+        self.random_start_pos_var = random_start_pos_var
         
-        if self.random_start_pos: self.random_start_pos()
+        if self.random_start_pos_var: self.random_start_pos()
     
     def loop(self):
         if self.alive:
