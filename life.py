@@ -39,7 +39,13 @@ class Life:
         pass
     
     def random_move(self):
-        pass
+        new_x, new_y = self.x, self.y
+        match choice(['x', 'y']):
+            case 'x':
+                new_x += choice([1, -1])
+            case 'y':
+                new_y += choice([1, -1])
+        self.set_on_map(new_x, new_y)
         
     def find_food(self):
         pass
