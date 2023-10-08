@@ -11,6 +11,7 @@ class Life:
         self.x, self.y = x, y
         self.satiety = 15
         self.alive = alive
+        List.list_of_lifes.append(self)
         self.random_start_pos_var = random_start_pos_var
         
         if self.random_start_pos_var: self.random_start_pos()
