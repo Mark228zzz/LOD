@@ -7,7 +7,7 @@ pygame.init()
 class Game:
     run = True
     window_width, window_height = 800, 600
-    grid_size = 50
+    grid_size = 20
     cols = window_width // grid_size
     rows = window_height // grid_size
     window = None
