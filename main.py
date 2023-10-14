@@ -7,7 +7,7 @@ pygame.init()
 class Game:
     run = True
     window_width, window_height = 800, 600
-    grid_size = 20
+    grid_size = 10
     cols = window_width // grid_size
     rows = window_height // grid_size
     window = None
@@ -99,7 +99,7 @@ class Creature:
         if self.hunger >= 160:
             if random.randint(1, 15) == 1:
                 self.hunger -= 65
-                life = Creature(x=self.x, y=self.y, color=(self.color[0]+30, 0, 255))
+                life = Creature(x=self.x, y=self.y, color=(self.color[0]+1, 0, 255))
     
     def random_move(self):
         random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))
