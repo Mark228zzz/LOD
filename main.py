@@ -49,6 +49,7 @@ class Creature:
         self.x = x
         self.y = y
         self.hunger = 150
+        self.age = 0
         self.color = color
         self.search_radius = 50
         self.alive = True
@@ -89,6 +90,11 @@ class Creature:
         else:
             Game.list_of_creatures.remove(self)
         
+        if self.age >= random.randint(100, 150):
+            Game.list_of_creatures.remove(self)
+        else:
+            self.age += 1
+        
     def reproduction(self):
         if self.hunger >= 160:
             if random.randint(1, 15) == 1:
@@ -127,7 +133,7 @@ for i in range(25):
 Game.init_game()
 
 while Game.run:
-    pygame.time.delay(150)
+    pygame.time.delay(15)
     
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -138,6 +144,7 @@ while Game.run:
             Game.window = pygame.display.set_mode((Game.window_width, Game.window_height), pygame.RESIZABLE)
     
     Game.window.fill((255, 255, 255))
+    print(len(Game.list_of_creatures))
     Game.loop()
     Game.draw_grid()
     Game.draw_creatures()
