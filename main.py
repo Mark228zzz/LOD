@@ -45,11 +45,11 @@ class Game:
             creature.reproduction()
 
 class Creature:
-    def __init__(self, x: int = Game.cols // 2, y: int = Game.rows // 2):
+    def __init__(self, x: int = Game.cols // 2, y: int = Game.rows // 2, color: tuple = (0, 0, 255)):
         self.x = x
         self.y = y
         self.hunger = 150
-        self.color = (0, 0, 255)
+        self.color = color
         self.search_radius = 50
         self.alive = True
         
@@ -91,9 +91,9 @@ class Creature:
         
     def reproduction(self):
         if self.hunger >= 160:
-            if random.randint(1, 10) == 1:
+            if random.randint(1, 15) == 1:
                 self.hunger -= 65
-                life = Creature(x=self.x, y=self.y)
+                life = Creature(x=self.x, y=self.y, color=(self.color[0]+30, 0, 255))
     
     def random_move(self):
         random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))
@@ -120,11 +120,12 @@ class Food:
 
 
 life = Creature()
-food = Food()
+for i in range(25):
+    food = Food()
 Game.init_game()
 
 while Game.run:
-    pygame.time.delay(250)
+    pygame.time.delay(150)
     
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
