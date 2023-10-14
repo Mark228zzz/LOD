@@ -38,12 +38,12 @@ class Game:
     def draw_foods():
         for food in Game.list_of_foods:
             pygame.draw.rect(Game.window, food.color, (food.x * Game.grid_size, food.y * Game.grid_size, Game.grid_size, Game.grid_size))
-
+            
 
 class Creature:
-    def __init__(self):
-        self.x = Game.cols // 2
-        self.y = Game.rows // 2
+    def __init__(self, x: int = Game.cols // 2, y: int = Game.rows // 2):
+        self.x = x
+        self.y = y
         self.hunger = 150
         self.color = (0, 0, 255)
         self.search_radius = 50
@@ -84,6 +84,12 @@ class Creature:
                 self.random_move()
         else:
             Game.list_of_creatures.remove(self)
+        
+    def reproduction(self):
+        if self.hunger >= 160:
+            if random.randint(1, 5) == 1:
+                self.hunger -= 65
+                life = Creature(x=self.x, y=self.y)
     
     def random_move(self):
         random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))
