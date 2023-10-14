@@ -7,7 +7,7 @@ pygame.init()
 class Game:
     run = True
     window_width, window_height = 800, 600
-    grid_size = 20
+    grid_size = 10
     cols = window_width // grid_size
     rows = window_height // grid_size
     window = None
@@ -31,21 +31,26 @@ class Game:
     def draw_creatures():
         for creature in Game.list_of_creatures:
             pygame.draw.rect(Game.window, creature.color, (creature.x * Game.grid_size, creature.y * Game.grid_size, Game.grid_size, Game.grid_size))    
-            creature.decrease_hunger()
-            creature.move_to_food()
 
     @staticmethod
     def draw_foods():
         for food in Game.list_of_foods:
             pygame.draw.rect(Game.window, food.color, (food.x * Game.grid_size, food.y * Game.grid_size, Game.grid_size, Game.grid_size))
-
+    
+    @staticmethod
+    def loop():
+        for creature in Game.list_of_creatures:
+            creature.decrease_hunger()
+            creature.move_to_food()
+            creature.reproduction()
 
 class Creature:
-    def __init__(self):
-        self.x = Game.cols // 2
-        self.y = Game.rows // 2
+    def __init__(self, x: int = Game.cols // 2, y: int = Game.rows // 2, color: tuple = (0, 0, 255)):
+        self.x = x
+        self.y = y
         self.hunger = 150
-        self.color = (0, 0, 255)
+        self.age = 0
+        self.color = color
         self.search_radius = 50
         self.alive = True
         
@@ -58,7 +63,7 @@ class Creature:
                 nearest_distance = float('inf')
                 
                 for food in Game.list_of_foods:
-                    distance = ((food.x - self.x)**2 + (food.y - -self.y)**2)**0.5
+                    distance = ((food.x - self.x)**2 + (food.y - self.y)**2)**0.5
                     if distance < self.search_radius and distance < nearest_distance:
                         nearest_food = food
                         nearest_distance = distance
@@ -84,14 +89,27 @@ class Creature:
                 self.random_move()
         else:
             Game.list_of_creatures.remove(self)
+        
+        if self.age >= random.randint(100, 150):
+            Game.list_of_creatures.remove(self)
+        else:
+            self.age += 1
+        
+    def reproduction(self):
+        if self.hunger >= 160:
+            if random.randint(1, 15) == 1:
+                self.hunger -= 65
+                life = Creature(x=self.x, y=self.y, color=(self.color[0]+1, 0, 255))
     
     def random_move(self):
         random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))
         match random_direction[0]:
             case 'x':
-                self.x += random_direction[1]
+                if 0 <= self.x + random_direction[1] < Game.window_width:
+                    self.x += random_direction[1]
             case 'y':
-                self.y += random_direction[1]
+                if 0 <= self.y + random_direction[1] < Game.window_height:
+                    self.y += random_direction[1]
     
     def decrease_hunger(self):
         if not self.hunger <= 0:
@@ -108,12 +126,14 @@ class Food:
         self.color = (255, 255, 0)
         Game.list_of_foods.append(self)
 
+
 life = Creature()
-food = Food()
+for i in range(25):
+    food = Food()
 Game.init_game()
 
 while Game.run:
-    pygame.time.delay(250)
+    pygame.time.delay(15)
     
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -124,6 +144,8 @@ while Game.run:
             Game.window = pygame.display.set_mode((Game.window_width, Game.window_height), pygame.RESIZABLE)
     
     Game.window.fill((255, 255, 255))
+    print(len(Game.list_of_creatures))
+    Game.loop()
     Game.draw_grid()
     Game.draw_creatures()
     Game.draw_foods()
