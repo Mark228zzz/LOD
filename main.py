@@ -84,7 +84,6 @@ class Creature:
                 self.random_move()
         else:
             Game.list_of_creatures.remove(self)
-        print(self.hunger)
     
     def random_move(self):
         random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))
