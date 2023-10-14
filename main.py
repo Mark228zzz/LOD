@@ -44,9 +44,9 @@ class Creature:
     def __init__(self):
         self.x = Game.cols // 2
         self.y = Game.rows // 2
-        self.hunger = 100
+        self.hunger = 150
         self.color = (0, 0, 255)
-        self.search_radius = 25
+        self.search_radius = 50
         self.alive = True
         
         Game.list_of_creatures.append(self)
