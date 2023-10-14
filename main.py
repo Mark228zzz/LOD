@@ -62,7 +62,7 @@ class Creature:
                 nearest_distance = float('inf')
                 
                 for food in Game.list_of_foods:
-                    distance = ((food.x - self.x)**2 + (food.y - -self.y)**2)**0.5
+                    distance = ((food.x - self.x)**2 + (food.y - self.y)**2)**0.5
                     if distance < self.search_radius and distance < nearest_distance:
                         nearest_food = food
                         nearest_distance = distance
