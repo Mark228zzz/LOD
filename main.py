@@ -99,9 +99,11 @@ class Creature:
         random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))
         match random_direction[0]:
             case 'x':
-                self.x += random_direction[1]
+                if 0 <= self.x + random_direction[1] < Game.window_width:
+                    self.x += random_direction[1]
             case 'y':
-                self.y += random_direction[1]
+                if 0 <= self.y + random_direction[1] < Game.window_height:
+                    self.y += random_direction[1]
     
     def decrease_hunger(self):
         if not self.hunger <= 0:
