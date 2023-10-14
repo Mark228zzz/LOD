@@ -31,14 +31,18 @@ class Game:
     def draw_creatures():
         for creature in Game.list_of_creatures:
             pygame.draw.rect(Game.window, creature.color, (creature.x * Game.grid_size, creature.y * Game.grid_size, Game.grid_size, Game.grid_size))    
-            creature.decrease_hunger()
-            creature.move_to_food()
 
     @staticmethod
     def draw_foods():
         for food in Game.list_of_foods:
             pygame.draw.rect(Game.window, food.color, (food.x * Game.grid_size, food.y * Game.grid_size, Game.grid_size, Game.grid_size))
-            
+    
+    @staticmethod
+    def loop():
+        for creature in Game.list_of_creatures:
+            creature.decrease_hunger()
+            creature.move_to_food()
+            creature.reproduction()
 
 class Creature:
     def __init__(self, x: int = Game.cols // 2, y: int = Game.rows // 2):
@@ -87,7 +91,7 @@ class Creature:
         
     def reproduction(self):
         if self.hunger >= 160:
-            if random.randint(1, 5) == 1:
+            if random.randint(1, 10) == 1:
                 self.hunger -= 65
                 life = Creature(x=self.x, y=self.y)
     
@@ -114,6 +118,7 @@ class Food:
         self.color = (255, 255, 0)
         Game.list_of_foods.append(self)
 
+
 life = Creature()
 food = Food()
 Game.init_game()
@@ -130,6 +135,7 @@ while Game.run:
             Game.window = pygame.display.set_mode((Game.window_width, Game.window_height), pygame.RESIZABLE)
     
     Game.window.fill((255, 255, 255))
+    Game.loop()
     Game.draw_grid()
     Game.draw_creatures()
     Game.draw_foods()
