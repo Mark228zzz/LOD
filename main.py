@@ -78,12 +78,25 @@ class Creature:
                         self.hunger += nearest_food.satiety
                         Game.list_of_foods.remove(nearest_food)
                         food = Food()
+                else:
+                    self.random_move()
+            else:
+                self.random_move()
         else:
             Game.list_of_creatures.remove(self)
+        print(self.hunger)
+    
+    def random_move(self):
+        random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))
+        match random_direction[0]:
+            case 'x':
+                self.x += random_direction[1]
+            case 'y':
+                self.y += random_direction[1]
     
     def decrease_hunger(self):
         if not self.hunger <= 0:
-            self.hunger = max(0, self.hunger - 2)
+            self.hunger = max(0, self.hunger - 1)
         else:
             self.alive = False
 
@@ -96,13 +109,12 @@ class Food:
         self.color = (255, 255, 0)
         Game.list_of_foods.append(self)
 
-
 life = Creature()
 food = Food()
 Game.init_game()
 
 while Game.run:
-    pygame.time.delay(50)
+    pygame.time.delay(250)
     
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
