@@ -7,7 +7,7 @@ pygame.init()
 class Game:
     run = True
     window_width, window_height = 800, 600
-    grid_size = 50
+    grid_size = 20
     cols = window_width // grid_size
     rows = window_height // grid_size
     window = None
@@ -44,9 +44,9 @@ class Creature:
     def __init__(self):
         self.x = Game.cols // 2
         self.y = Game.rows // 2
-        self.hunger = 100
+        self.hunger = 150
         self.color = (0, 0, 255)
-        self.search_radius = 25
+        self.search_radius = 50
         self.alive = True
         
         Game.list_of_creatures.append(self)
@@ -78,12 +78,24 @@ class Creature:
                         self.hunger += nearest_food.satiety
                         Game.list_of_foods.remove(nearest_food)
                         food = Food()
+                else:
+                    self.random_move()
+            else:
+                self.random_move()
         else:
             Game.list_of_creatures.remove(self)
     
+    def random_move(self):
+        random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))
+        match random_direction[0]:
+            case 'x':
+                self.x += random_direction[1]
+            case 'y':
+                self.y += random_direction[1]
+    
     def decrease_hunger(self):
         if not self.hunger <= 0:
-            self.hunger = max(0, self.hunger - 2)
+            self.hunger = max(0, self.hunger - 1)
         else:
             self.alive = False
 
@@ -96,13 +108,12 @@ class Food:
         self.color = (255, 255, 0)
         Game.list_of_foods.append(self)
 
-
 life = Creature()
 food = Food()
 Game.init_game()
 
 while Game.run:
-    pygame.time.delay(50)
+    pygame.time.delay(250)
     
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
