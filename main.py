@@ -48,6 +48,15 @@ class Game:
             creature.move_to_food()
             creature.reproduction()
 
+
+class Obstacle:
+    def __init__(self, x: int, y: int, width: int = 1, height: int = 1):
+        self.x, self.y = x, y
+        self.width, self.height = width, height
+        
+        Game.list_of_obstacles.append(self)
+
+
 class Creature:
     def __init__(self, x: int = Game.cols // 2, y: int = Game.rows // 2, color: tuple = (0, 0, 255)):
         self.x = x
