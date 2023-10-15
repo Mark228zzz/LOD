@@ -46,6 +46,21 @@ class Game:
             pygame.draw.rect(Game.window, obstacle.color, (obstacle.x * Game.grid_size, obstacle.y * Game.grid_size, obstacle.width * Game.grid_size, obstacle.height * Game.grid_size))
     
     @staticmethod
+    def add_food_at_click(pos):
+        grid_x, grid_y = pos[0] // Game.grid_size, pos[1] // Game.grid_size
+
+        if any(creature.x == grid_x and creature.y == grid_y for creature in Game.list_of_creatures):
+            return
+
+        if any(food.x == grid_x and food.y == grid_y for food in Game.list_of_foods):
+            return
+
+        if any(obstacle.x <= grid_x < obstacle.x + obstacle.width and obstacle.y <= grid_y < obstacle.y + obstacle.height for obstacle in Game.list_of_obstacles):
+            return
+
+        food = Food(x=grid_x, y=grid_y)
+    
+    @staticmethod
     def loop():
         for creature in Game.list_of_creatures:
             creature.decrease_hunger()
@@ -119,7 +134,7 @@ class Creature:
         
     def reproduction(self):
         if self.hunger >= 160:
-            if random.randint(1, 15) == 1:
+            if random.randint(1, 30) == 1:
                 self.hunger -= 65
                 life = Creature(x=self.x, y=self.y, color=(self.color[0]+2, 0, 255))
     
@@ -146,6 +161,7 @@ class Food:
         self.y = y
         self.satiety = satiety
         self.color = (255, 255, 0)
+
         Game.list_of_foods.append(self)
 
 
@@ -167,6 +183,8 @@ while Game.run:
         elif event.type == pygame.VIDEORESIZE:
             Game.window_width, Game.window_height = event.w, event.h
             Game.window = pygame.display.set_mode((Game.window_width, Game.window_height), pygame.RESIZABLE)
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            Game.add_food_at_click(event.pos)
     
     Game.window.fill((255, 255, 255))
     Game.loop()
