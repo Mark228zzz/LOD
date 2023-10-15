@@ -11,8 +11,7 @@ class Game:
     cols = window_width // grid_size
     rows = window_height // grid_size
     window = None
-    list_of_creatures = []
-    list_of_foods = []
+    list_of_creatures, list_of_foods, list_of_obstacles = []
     
     @staticmethod
     def init_game():
@@ -36,6 +35,11 @@ class Game:
     def draw_foods():
         for food in Game.list_of_foods:
             pygame.draw.rect(Game.window, food.color, (food.x * Game.grid_size, food.y * Game.grid_size, Game.grid_size, Game.grid_size))
+    
+    @staticmethod
+    def draw_obstacles():
+        for obstacle in Game.list_of_obstacles:
+            pygame.draw.rect(Game.window, obstacle.color, (obstacle.x * Game.grid_size, obstacle.y * Game.grid_size, obstacle.width * Game.grid_size, obstacle.height * Game.grid_size))
     
     @staticmethod
     def loop():
