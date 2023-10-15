@@ -46,17 +46,33 @@ class Game:
             pygame.draw.rect(Game.window, obstacle.color, (obstacle.x * Game.grid_size, obstacle.y * Game.grid_size, obstacle.width * Game.grid_size, obstacle.height * Game.grid_size))
     
     @staticmethod
+    def check(x, y):
+        grid_x, grid_y = x // Game.grid_size, y // Game.grid_size
+
+        if any(creature.x == grid_x and creature.y == grid_y for creature in Game.list_of_creatures):
+            return False
+
+        if any(food.x == grid_x and food.y == grid_y for food in Game.list_of_foods):
+            return False
+
+        if any(obstacle.x <= grid_x < obstacle.x + obstacle.width and obstacle.y <= grid_y < obstacle.y + obstacle.height for obstacle in Game.list_of_obstacles):
+            return False
+        
+        return True
+
+    
+    @staticmethod
     def add_food_at_click(pos):
         grid_x, grid_y = pos[0] // Game.grid_size, pos[1] // Game.grid_size
 
         if any(creature.x == grid_x and creature.y == grid_y for creature in Game.list_of_creatures):
-            return
+            return False
 
         if any(food.x == grid_x and food.y == grid_y for food in Game.list_of_foods):
-            return
+            return False
 
         if any(obstacle.x <= grid_x < obstacle.x + obstacle.width and obstacle.y <= grid_y < obstacle.y + obstacle.height for obstacle in Game.list_of_obstacles):
-            return
+            return False
 
         food = Food(x=grid_x, y=grid_y)
     
@@ -142,11 +158,13 @@ class Creature:
         random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))
         match random_direction[0]:
             case 'x':
-                if 0 <= self.x + random_direction[1] < Game.window_width and not Game.is_obstacle(self.x + random_direction[1], self.y):
-                    self.x += random_direction[1]
+                new_x = self.x + random_direction[1]
+                if 0 <= new_x < Game.window_width and not Game.is_obstacle(new_x, self.y) and Game.check(new_x * Game.grid_size, self.y * Game.grid_size):
+                    self.x = new_x
             case 'y':
-                if 0 <= self.y + random_direction[1] < Game.window_height and not Game.is_obstacle(self.x, self.y + random_direction[1]):
-                    self.y += random_direction[1]
+                new_y = self.y + random_direction[1]
+                if 0 <= new_y < Game.window_height and not Game.is_obstacle(self.x, new_y) and Game.check(self.x * Game.grid_size, new_y * Game.grid_size):
+                    self.y = new_y
     
     def decrease_hunger(self):
         if not self.hunger <= 0:
