@@ -7,7 +7,7 @@ pygame.init()
 class Game:
     run = True
     window_width, window_height = 800, 600
-    grid_size = 10
+    grid_size = 30
     cols = window_width // grid_size
     rows = window_height // grid_size
     window = None
@@ -17,6 +17,10 @@ class Game:
     def init_game():
         grid = [['' for _ in range(Game.cols)] for _ in range(Game.rows)]
         Game.window = pygame.display.set_mode((Game.window_width, Game.window_height), pygame.RESIZABLE)
+    
+    @staticmethod
+    def is_obstacle(x, y):
+        return any(obstacle.x <= x < obstacle.x + obstacle.width and obstacle.y <= y < obstacle.y + obstacle.height for obstacle in Game.list_of_obstacles)
     
     @staticmethod
     def draw_grid():
@@ -75,31 +79,29 @@ class Creature:
             if self.hunger < 100:
                 nearest_food = None
                 nearest_distance = float('inf')
-                
+
                 for food in Game.list_of_foods:
                     distance = ((food.x - self.x)**2 + (food.y - self.y)**2)**0.5
                     if distance < self.search_radius and distance < nearest_distance:
                         nearest_food = food
                         nearest_distance = distance
-                
+
                 if nearest_food is not None:
                     new_x, new_y = self.x, self.y
-                    
-                    if self.x < nearest_food.x:
-                        new_x += 1
-                    elif self.x > nearest_food.x:
-                        new_x -= 1
-                    
-                    if self.y < nearest_food.y:
-                        new_y += 1
-                    elif self.y > nearest_food.y:
-                        new_y -= 1
 
-                    if not any(obstacle.x <= new_x < obstacle.x + obstacle.width and
-                               obstacle.y <= new_y < obstacle.y + obstacle.height
-                               for obstacle in Game.list_of_obstacles):
+                    if new_x < nearest_food.x and not Game.is_obstacle(self.x + 1, self.y):
+                        new_x += 1
+                    elif new_x > nearest_food.x and not Game.is_obstacle(self.x - 1, self.y):
+                        new_x -= 1
+
+                    if new_y < nearest_food.y and not Game.is_obstacle(self.x, self.y + 1):
+                        new_y += 1
+                    elif new_y > nearest_food.y and not Game.is_obstacle(self.x, self.y - 1):
+                        new_y -= 1
+                        
+                    if not Game.is_obstacle(new_x, new_y):
                         self.x, self.y = new_x, new_y
-                    
+
                     if self.x == nearest_food.x and self.y == nearest_food.y:
                         self.hunger += nearest_food.satiety
                         Game.list_of_foods.remove(nearest_food)
@@ -120,16 +122,16 @@ class Creature:
         if self.hunger >= 160:
             if random.randint(1, 15) == 1:
                 self.hunger -= 65
-                life = Creature(x=self.x, y=self.y, color=(self.color[0]+1, 0, 255))
+                life = Creature(x=self.x, y=self.y, color=(self.color[0]+2, 0, 255))
     
     def random_move(self):
         random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))
         match random_direction[0]:
             case 'x':
-                if 0 <= self.x + random_direction[1] < Game.window_width:
+                if 0 <= self.x + random_direction[1] < Game.window_width and not Game.is_obstacle(self.x + random_direction[1], self.y):
                     self.x += random_direction[1]
             case 'y':
-                if 0 <= self.y + random_direction[1] < Game.window_height:
+                if 0 <= self.y + random_direction[1] < Game.window_height and not Game.is_obstacle(self.x, self.y + random_direction[1]):
                     self.y += random_direction[1]
     
     def decrease_hunger(self):
@@ -156,7 +158,7 @@ for i in range(1):
 Game.init_game()
 
 while Game.run:
-    pygame.time.delay(15)
+    pygame.time.delay(75)
     
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -167,7 +169,6 @@ while Game.run:
             Game.window = pygame.display.set_mode((Game.window_width, Game.window_height), pygame.RESIZABLE)
     
     Game.window.fill((255, 255, 255))
-    print(len(Game.list_of_creatures))
     Game.loop()
     Game.draw_obstacles()
     Game.draw_grid()
