@@ -61,7 +61,7 @@ class Creature:
         if self.hunger >= 160:
             if random.randint(1, 30) == 1:
                 self.hunger -= 65
-                life = Creature(x=self.x, y=self.y, color=(self.color[0]+2, 0, 255))
+                life = Creature(x=self.x, y=self.y, color=(self.color[0]+5, self.color[1]+5, 255))
     
     def random_move(self):
         random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))

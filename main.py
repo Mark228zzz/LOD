@@ -22,7 +22,7 @@ while Game.run:
         elif event.type == pygame.MOUSEBUTTONDOWN:
             Game.add_food_at_click(event.pos)
         elif event.type == pygame.KEYDOWN:
-            if event.type == pygame.K_SLASH:
+            if event.type == pygame.K_w:
                 debug_window.toggle_visibility()
     
     Game.window.fill((255, 255, 255))
