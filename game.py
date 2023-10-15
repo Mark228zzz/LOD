@@ -9,6 +9,7 @@ class Game:
     rows = window_height // grid_size
     window = None
     list_of_creatures, list_of_foods, list_of_obstacles = [], [], []
+    debug_window = False
     
     @staticmethod
     def init_game():
