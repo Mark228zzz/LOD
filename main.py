@@ -105,7 +105,6 @@ class Creature:
                     if self.x == nearest_food.x and self.y == nearest_food.y:
                         self.hunger += nearest_food.satiety
                         Game.list_of_foods.remove(nearest_food)
-                        food = Food()
                 else:
                     self.random_move()
             else:
@@ -142,17 +141,18 @@ class Creature:
 
 
 class Food:
-    def __init__(self, satiety: int = 100):
-        self.x = random.randint(0, Game.cols-1)
-        self.y = random.randint(0, Game.rows-1)
+    def __init__(self, x: int, y: int, satiety: int = 100):
+        self.x = x
+        self.y = y
         self.satiety = satiety
         self.color = (255, 255, 0)
         Game.list_of_foods.append(self)
 
 
 life = Creature()
-for i in range(25):
-    food = Food()
+food = Food(x=1, y=7)
+food = Food(x=5, y=12)
+food = Food(x=9, y=2)
 for i in range(1):
     obstacle = Obstacle(5, 8, 2, 3)
 Game.init_game()
