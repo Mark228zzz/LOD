@@ -11,7 +11,7 @@ class Game:
     cols = window_width // grid_size
     rows = window_height // grid_size
     window = None
-    list_of_creatures, list_of_foods, list_of_obstacles = []
+    list_of_creatures, list_of_foods, list_of_obstacles = [], [], []
     
     @staticmethod
     def init_game():
@@ -83,16 +83,23 @@ class Creature:
                         nearest_distance = distance
                 
                 if nearest_food is not None:
+                    new_x, new_y = self.x, self.y
+                    
                     if self.x < nearest_food.x:
-                        self.x += 1
+                        new_x += 1
                     elif self.x > nearest_food.x:
-                        self.x -= 1
+                        new_x -= 1
                     
                     if self.y < nearest_food.y:
-                        self.y += 1
+                        new_y += 1
                     elif self.y > nearest_food.y:
-                        self.y -= 1
-            
+                        new_y -= 1
+
+                    if not any(obstacle.x <= new_x < obstacle.x + obstacle.width and
+                               obstacle.y <= new_y < obstacle.y + obstacle.height
+                               for obstacle in Game.list_of_obstacles):
+                        self.x, self.y = new_x, new_y
+                    
                     if self.x == nearest_food.x and self.y == nearest_food.y:
                         self.hunger += nearest_food.satiety
                         Game.list_of_foods.remove(nearest_food)
