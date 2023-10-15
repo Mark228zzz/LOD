@@ -12,18 +12,18 @@ class DebugWindow:
     def toggle_visibility(self):
         self.visible = not self.visible
         
-    def draw(self, window):
-        if self.visible:
-            self.window.fill((20, 20, 20))
-            info_text = [
-                f'Count of creatures: {len(Game.list_of_creatures)}',
-                f'Count of foods: {len(Game.list_of_foods)}',
-                f'Count of obstacles: {len(Game.list_of_obstacles)}'
-            ]
-            y_offset = 10
-            for line in info_text:
-                text = self.font.render(line, True, (255, 255, 255))
-                self.window.blit(text, (10, y_offset))
-                y_offset += 40
-            self.window.blit(self.window, (0, 0))
+    def draw(self):
+        font = pygame.font.Font(None, 25)
+        y = 45
+        pygame.draw.rect(Game.window, (200, 200, 200), (40, 40, 200, 200))
+        debug_text = [
+            f"Creatures: {len(Game.list_of_creatures)}",
+            f"Foods: {len(Game.list_of_foods)}",
+            f"Obstacles: {len(Game.list_of_obstacles)}"
+        ]
+        for line in debug_text:
+            text_surface = font.render(line, True, (255, 0, 255))    
+            Game.window.blit(text_surface, (60, y))
+            y += 40
+        
         

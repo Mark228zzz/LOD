@@ -19,11 +19,11 @@ while Game.run:
         elif event.type == pygame.VIDEORESIZE:
             Game.window_width, Game.window_height = event.w, event.h
             Game.window = pygame.display.set_mode((Game.window_width, Game.window_height), pygame.RESIZABLE)
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_SLASH:
+                Game.debug_window = not Game.debug_window
         elif event.type == pygame.MOUSEBUTTONDOWN:
             Game.add_food_at_click(event.pos)
-        elif event.type == pygame.KEYDOWN:
-            if event.type == pygame.K_w:
-                debug_window.toggle_visibility()
     
     Game.window.fill((255, 255, 255))
     Game.loop()
@@ -31,7 +31,8 @@ while Game.run:
     Game.draw_grid()
     Game.draw_creatures()
     Game.draw_foods()
-    debug_window.draw(Game.window)
+    if Game.debug_window:
+        debug_window.draw()
     pygame.display.update()
 
 pygame.quit()
