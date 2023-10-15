@@ -151,6 +151,8 @@ class Food:
 life = Creature()
 for i in range(25):
     food = Food()
+for i in range(1):
+    obstacle = Obstacle(5, 8, 2, 3)
 Game.init_game()
 
 while Game.run:
@@ -167,6 +169,7 @@ while Game.run:
     Game.window.fill((255, 255, 255))
     print(len(Game.list_of_creatures))
     Game.loop()
+    Game.draw_obstacles()
     Game.draw_grid()
     Game.draw_creatures()
     Game.draw_foods()
