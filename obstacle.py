@@ -5,5 +5,5 @@ class Obstacle:
         self.x, self.y = x, y
         self.width, self.height = width, height
         self.color = color
-        
+
         Game.list_of_obstacles.append(self)

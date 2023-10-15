@@ -10,16 +10,16 @@ class Game:
     window = None
     list_of_creatures, list_of_foods, list_of_obstacles = [], [], []
     debug_window = False
-    
+
     @staticmethod
     def init_game():
         grid = [['' for _ in range(Game.cols)] for _ in range(Game.rows)]
         Game.window = pygame.display.set_mode((Game.window_width, Game.window_height), pygame.RESIZABLE)
-    
+
     @staticmethod
     def is_obstacle(x, y):
         return any(obstacle.x <= x < obstacle.x + obstacle.width and obstacle.y <= y < obstacle.y + obstacle.height for obstacle in Game.list_of_obstacles)
-    
+
     @staticmethod
     def draw_grid():
         Game.cols = Game.window_width // Game.grid_size
@@ -27,7 +27,7 @@ class Game:
         for y in range(Game.rows):
             for x in range(Game.cols):
                 pygame.draw.rect(Game.window, (200, 200, 200), (x * Game.grid_size, y * Game.grid_size, Game.grid_size, Game.grid_size), 1)
-    
+
     @staticmethod
     def draw_creatures():
         for creature in Game.list_of_creatures:
@@ -37,12 +37,12 @@ class Game:
     def draw_foods():
         for food in Game.list_of_foods:
             pygame.draw.rect(Game.window, food.color, (food.x * Game.grid_size, food.y * Game.grid_size, Game.grid_size, Game.grid_size))
-    
+
     @staticmethod
     def draw_obstacles():
         for obstacle in Game.list_of_obstacles:
             pygame.draw.rect(Game.window, obstacle.color, (obstacle.x * Game.grid_size, obstacle.y * Game.grid_size, obstacle.width * Game.grid_size, obstacle.height * Game.grid_size))
-    
+
     @staticmethod
     def check(x, y):
         grid_x, grid_y = x // Game.grid_size, y // Game.grid_size
@@ -55,10 +55,10 @@ class Game:
 
         if any(obstacle.x <= grid_x < obstacle.x + obstacle.width and obstacle.y <= grid_y < obstacle.y + obstacle.height for obstacle in Game.list_of_obstacles):
             return False
-        
+
         return True
 
-    
+
     @staticmethod
     def add_food_at_click(pos):
         grid_x, grid_y = pos[0] // Game.grid_size, pos[1] // Game.grid_size
@@ -73,7 +73,7 @@ class Game:
             return False
 
         food = Food(x=grid_x, y=grid_y)
-    
+
     @staticmethod
     def loop():
         for creature in Game.list_of_creatures:

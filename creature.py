@@ -11,9 +11,9 @@ class Creature:
         self.color = color
         self.search_radius = 50
         self.alive = True
-        
+
         Game.list_of_creatures.append(self)
-    
+
     def move_to_food(self):
         if self.alive:
             if self.hunger < 100:
@@ -38,7 +38,7 @@ class Creature:
                         new_y += 1
                     elif new_y > nearest_food.y and not Game.is_obstacle(self.x, self.y - 1):
                         new_y -= 1
-                        
+
                     if not Game.is_obstacle(new_x, new_y):
                         self.x, self.y = new_x, new_y
 
@@ -51,18 +51,18 @@ class Creature:
                 self.random_move()
         else:
             Game.list_of_creatures.remove(self)
-        
+
         if self.age >= random.randint(170, 230):
             Game.list_of_creatures.remove(self)
         else:
             self.age += 1
-        
+
     def reproduction(self):
         if self.hunger >= 160:
             if random.randint(1, 30) == 1:
                 self.hunger -= 65
                 life = Creature(x=self.x, y=self.y, color=(self.color[0]+5, self.color[1]+5, 255))
-    
+
     def random_move(self):
         random_direction = (random.choice(['x', 'y']), random.choice([-1, 1]))
         match random_direction[0]:
@@ -74,7 +74,7 @@ class Creature:
                 new_y = self.y + random_direction[1]
                 if 0 <= new_y < Game.window_height and not Game.is_obstacle(self.x, new_y) and Game.check(self.x * Game.grid_size, new_y * Game.grid_size):
                     self.y = new_y
-    
+
     def decrease_hunger(self):
         if not self.hunger <= 0:
             self.hunger = max(0, self.hunger - 1)

@@ -11,7 +11,7 @@ debug_window = DebugWindow()
 
 while Game.run:
     pygame.time.delay(75)
-    
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             Game.run = False
@@ -22,9 +22,9 @@ while Game.run:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SLASH:
                 Game.debug_window = not Game.debug_window
-        elif event.type == pygame.MOUSEBUTTONDOWN:
+        elif event.type == pygame.LEFT:
             Game.add_food_at_click(event.pos)
-    
+
     Game.window.fill((255, 255, 255))
     Game.loop()
     Game.draw_obstacles()

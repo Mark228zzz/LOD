@@ -6,5 +6,5 @@ class Food:
         self.y = y
         self.satiety = satiety
         self.color = (255, 255, 0)
-        
+
         game.Game.list_of_foods.append(self)
