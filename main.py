@@ -2,6 +2,7 @@ import pygame
 from game import *
 from creature import *
 from windows.debug_window import *
+from obstacle import Obstacle
 
 pygame.init()
 
@@ -22,8 +23,13 @@ while Game.run:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SLASH:
                 Game.debug_window = not Game.debug_window
-        elif event.type == pygame.LEFT:
-            Game.add_food_at_click(event.pos)
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            if event.button == 1:
+                Game.add_smth_at_click(event.pos, Food)
+            elif event.button == 2:
+                Game.add_smth_at_click(event.pos, Obstacle)
+            elif event.button == 3:
+                Game.add_smth_at_click(event.pos, Creature)
 
     Game.window.fill((255, 255, 255))
     Game.loop()

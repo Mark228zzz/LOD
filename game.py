@@ -60,7 +60,7 @@ class Game:
 
 
     @staticmethod
-    def add_food_at_click(pos):
+    def add_smth_at_click(pos, thing):
         grid_x, grid_y = pos[0] // Game.grid_size, pos[1] // Game.grid_size
 
         if any(creature.x == grid_x and creature.y == grid_y for creature in Game.list_of_creatures):
@@ -72,7 +72,7 @@ class Game:
         if any(obstacle.x <= grid_x < obstacle.x + obstacle.width and obstacle.y <= grid_y < obstacle.y + obstacle.height for obstacle in Game.list_of_obstacles):
             return False
 
-        food = Food(x=grid_x, y=grid_y)
+        something = thing(x=grid_x, y=grid_y)
 
     @staticmethod
     def loop():
