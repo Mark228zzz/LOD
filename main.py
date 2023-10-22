@@ -40,6 +40,7 @@ while Game.run:
     Game.draw_grid()
     Game.draw_creatures()
     Game.draw_foods()
+    Game.draw_biomes()
     if Game.debug_window:
         debug_window.draw()
     pygame.display.update()
