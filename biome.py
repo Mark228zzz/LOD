@@ -1,3 +1,3 @@
 class Biome:
-    def __init__(self) -> None:
-        pass
+    def __init__(self, color: tuple):
+        self.color = color
