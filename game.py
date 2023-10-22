@@ -1,5 +1,7 @@
 import pygame
 from food import *
+from random import choice
+from main import sand_biome, grass_biome
 
 class Game:
     run = True
@@ -42,6 +44,15 @@ class Game:
     def draw_obstacles():
         for obstacle in Game.list_of_obstacles:
             pygame.draw.rect(Game.window, obstacle.color, (obstacle.x * Game.grid_size, obstacle.y * Game.grid_size, obstacle.width * Game.grid_size, obstacle.height * Game.grid_size))
+
+    @staticmethod
+    def draw_biomes():
+        for x in range(0, Game.window_width, Game.grid_size):
+            for y in range(0, Game.window_height, Game.grid_size):
+                biome = choice(['sand', 'grass'])
+                match biome:
+                    case 'sand': pygame.draw.rect(Game.window, sand_biome.color, (x, y, Game.grid_size, Game.grid_size))
+                    case 'grass': pygame.draw.rect(Game.window, grass_biome.color, (x, y, Game.grid_size, Game.grid_size))
 
     @staticmethod
     def check(x, y):

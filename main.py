@@ -3,12 +3,15 @@ from game import *
 from creature import *
 from windows.debug_window import *
 from obstacle import Obstacle
+from biome import Biome
 
 pygame.init()
 
 life = Creature()
 Game.init_game()
 debug_window = DebugWindow()
+sand_biome = Biome((244, 164, 96))
+grass_biome = Biome((34, 139, 34))
 
 while Game.run:
     pygame.time.delay(75)
