@@ -1,7 +1,7 @@
 import pygame
 from food import *
 from random import choice
-from main import sand_biome, grass_biome
+from biome import Biome
 
 class Game:
     run = True
@@ -12,6 +12,9 @@ class Game:
     window = None
     list_of_creatures, list_of_foods, list_of_obstacles = [], [], []
     debug_window = False
+    biomes_shown = False
+    sand_biome = Biome((244, 164, 96))
+    grass_biome = Biome((34, 139, 34))
 
     @staticmethod
     def init_game():
@@ -51,8 +54,9 @@ class Game:
             for y in range(0, Game.window_height, Game.grid_size):
                 biome = choice(['sand', 'grass'])
                 match biome:
-                    case 'sand': pygame.draw.rect(Game.window, sand_biome.color, (x, y, Game.grid_size, Game.grid_size))
-                    case 'grass': pygame.draw.rect(Game.window, grass_biome.color, (x, y, Game.grid_size, Game.grid_size))
+                    case 'sand': pygame.draw.rect(Game.window, Game.sand_biome.color, (x, y, Game.grid_size, Game.grid_size))
+                    case 'grass': pygame.draw.rect(Game.window, Game.grass_biome.color, (x, y, Game.grid_size, Game.grid_size))
+        Game.biomes_shown = True
 
     @staticmethod
     def check(x, y):

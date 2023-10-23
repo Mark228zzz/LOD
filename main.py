@@ -3,18 +3,14 @@ from game import *
 from creature import *
 from windows.debug_window import *
 from obstacle import Obstacle
-from biome import Biome
 
 pygame.init()
 
-life = Creature()
 Game.init_game()
 debug_window = DebugWindow()
-sand_biome = Biome((244, 164, 96))
-grass_biome = Biome((34, 139, 34))
 
 while Game.run:
-    pygame.time.delay(75)
+    pygame.time.delay(150)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -35,14 +31,15 @@ while Game.run:
                 Game.add_smth_at_click(event.pos, Creature)
 
     Game.window.fill((255, 255, 255))
+    Game.draw_biomes()
     Game.loop()
-    Game.draw_obstacles()
     Game.draw_grid()
+    Game.draw_obstacles()
     Game.draw_creatures()
     Game.draw_foods()
-    Game.draw_biomes()
-    if Game.debug_window:
-        debug_window.draw()
+
+    if Game.debug_window: debug_window.draw()
+
     pygame.display.update()
 
 pygame.quit()
