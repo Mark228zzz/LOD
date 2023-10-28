@@ -1,6 +1,6 @@
 from game import *
 import random
-
+from creatures.move import *
 
 class Creature:
     def __init__(self, x: int = Game.cols // 2, y: int = Game.rows // 2, color: tuple = (0, 0, 255)):
@@ -27,20 +27,11 @@ class Creature:
                         nearest_distance = distance
 
                 if nearest_food is not None:
-                    new_x, new_y = self.x, self.y
-
-                    if new_x < nearest_food.x and not Game.is_obstacle(self.x + 1, self.y):
-                        new_x += 1
-                    elif new_x > nearest_food.x and not Game.is_obstacle(self.x - 1, self.y):
-                        new_x -= 1
-
-                    if new_y < nearest_food.y and not Game.is_obstacle(self.x, self.y + 1):
-                        new_y += 1
-                    elif new_y > nearest_food.y and not Game.is_obstacle(self.x, self.y - 1):
-                        new_y -= 1
-
-                    if not Game.is_obstacle(new_x, new_y):
-                        self.x, self.y = new_x, new_y
+                    path = a_star((self.x, self.y), (nearest_food.x, nearest_food.y))
+                    if path and len(path) > 1:
+                        self.x, self.y = path[1]
+                    elif not path:
+                        self.random_move()
 
                     if self.x == nearest_food.x and self.y == nearest_food.y:
                         self.hunger += nearest_food.satiety

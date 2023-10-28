@@ -1,12 +1,11 @@
 import pygame
 from game import *
-from creature import *
+from creatures.creature import *
 from windows.debug_window import *
 from obstacle import Obstacle
 
 pygame.init()
 
-life = Creature()
 Game.init_game()
 debug_window = DebugWindow()
 
