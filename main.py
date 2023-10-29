@@ -3,12 +3,14 @@ from draw import Draw
 from game import Game
 from vars import *
 from creatures.animal import Animal
+from structures.obstacle import Obstacle
 
 def main():
     pygame.init()
     Game.init_game()
 
     animal = Animal(9, 7, (0, 0, 0))
+    obstacle = Obstacle(10, 7, (255, 255, 50))
 
     while Game.run:
         pygame.time.delay(150)
