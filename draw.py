@@ -15,4 +15,4 @@ class Draw:
         for animal in List.animals:
             pygame.draw.rect(Game.window, animal.color, (animal.x * Const.GRID_SIZE, animal.y * Const.GRID_SIZE, Const.GRID_SIZE, Const.GRID_SIZE), Const.GRID_SIZE)
         for obstacle in List.obstacles:
-            pygame
+            pygame.draw.rect(Game.window, obstacle.color, (obstacle.x * Const.GRID_SIZE, obstacle.y * Const.GRID_SIZE, Const.GRID_SIZE, Const.GRID_SIZE), Const.GRID_SIZE)
