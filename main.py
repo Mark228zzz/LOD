@@ -10,7 +10,8 @@ def main():
     Game.init_game()
 
     animal = Animal(9, 7, (0, 0, 0))
-    obstacle = Obstacle(10, 7, (255, 255, 50))
+    obstacle1 = Obstacle(9, 6, (255, 255, 50))
+    obstacle2 = Obstacle(12, 8, (255, 255, 50))
 
     while Game.run:
         pygame.time.delay(150)
