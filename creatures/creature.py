@@ -2,6 +2,7 @@ class Creature:
     def __init__(self, x: int, y: int, color: tuple, alive: bool = True):
         self.x = x
         self.y = y
+        self.color = color
         self.alive = alive
 
     def die(self):

@@ -8,7 +8,7 @@ def main():
     pygame.init()
     Game.init_game()
 
-    animal = Animal(9, 7, (150, 50, 250))
+    animal = Animal(9, 7, (0, 0, 0))
 
     while Game.run:
         pygame.time.delay(150)

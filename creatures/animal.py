@@ -6,6 +6,7 @@ from vars import *
 class Animal(Creature):
     def __init__(self, x: int, y: int, color: tuple, alive: bool = True):
         super().__init__(x, y, color, alive)
+        List.animals.append(self)
 
     def loop(self):
         if self.alive:
