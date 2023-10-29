@@ -1,5 +1,5 @@
 class Creature:
-    def __init__(self, x: int, y: int, alive: bool = True):
+    def __init__(self, x: int, y: int, color: tuple, alive: bool = True):
         self.x = x
         self.y = y
         self.alive = alive

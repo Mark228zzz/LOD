@@ -12,4 +12,5 @@ class Draw:
 
     @staticmethod
     def all():
-        pass
+        for animal in List.animals:
+            pygame.draw.rect(Game.window, animal.color, (animal.x * Const.GRID_SIZE, animal.y * Const.GRID_SIZE, Const.GRID_SIZE, Const.GRID_SIZE), Const.GRID_SIZE)

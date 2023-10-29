@@ -6,4 +6,4 @@ class Const:
     MIN_SIZE = {'width': 250, 'height': 150}
 
 class List:
-    animal = []
+    animals = []

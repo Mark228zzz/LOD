@@ -1,10 +1,11 @@
 from creatures.creature import Creature
 from random import choice
+from vars import *
 
 
 class Animal(Creature):
-    def __init__(self, x: int, y: int, alive: bool = True):
-        super().__init__(x, y, alive)
+    def __init__(self, x: int, y: int, color: tuple, alive: bool = True):
+        super().__init__(x, y, color, alive)
 
     def loop(self):
         if self.alive:
