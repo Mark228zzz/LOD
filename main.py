@@ -16,7 +16,7 @@ def main():
 
         Game.window.fill((255, 255, 255))
         Draw.grid()
-        Draw.something(8, 8, (25, 25, 25))
+        Draw.something(9, 7, (25, 25, 25))
 
         pygame.display.update()
 

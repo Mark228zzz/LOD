@@ -4,3 +4,6 @@ class Const:
     COLUMNS = WIDTH // GRID_SIZE
     ROWS = HEIGHT // GRID_SIZE
     MIN_SIZE = {'width': 250, 'height': 150}
+
+class List:
+    animal = []
