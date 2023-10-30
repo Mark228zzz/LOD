@@ -26,3 +26,7 @@ class Animal(Creature):
 
     def random_move(self):
         pass
+
+    def die(self):
+        List.animals.remove(self)
+        return super().die()
