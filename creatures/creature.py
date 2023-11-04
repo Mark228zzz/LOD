@@ -4,6 +4,3 @@ class Creature:
         self.width, self.height = width, height
         self.color = color
         self.alive = alive
-
-    def die(self):
-        self.alive = False
