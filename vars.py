@@ -5,3 +5,4 @@ class Const:
 class List:
     animals = []
     obstacles = []
+    foods = []
