@@ -1,11 +1,14 @@
 from creatures.creature import Creature
 from random import choice
+from random import randint
 from vars import *
 
 
 class Animal(Creature):
-    def __init__(self, x: int, y: int, color: tuple, alive: bool = True):
-        super().__init__(x, y, color, alive)
+    def __init__(self, x: int, y: int, width: int, height: int, color: tuple, alive: bool = True):
+        super().__init__(x, y, width, height, color, alive)
+        self.satiety = 100
+
         List.animals.append(self)
 
     def loop(self):
@@ -25,7 +28,8 @@ class Animal(Creature):
         pass
 
     def random_move(self):
-        pass
+        self.x = self.x + randint(-2, 2)
+        self.y = self.y + randint(-2, 2)
 
     def die(self):
         List.animals.remove(self)
