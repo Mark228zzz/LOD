@@ -10,18 +10,15 @@ def main():
     Game.init_game()
 
     animal = Animal(9, 7, (0, 0, 0))
-    obstacle1 = Obstacle(9, 6, (255, 255, 50))
-    obstacle2 = Obstacle(12, 8, (255, 255, 50))
 
     while Game.run:
         pygame.time.delay(150)
+        Game.window.fill((255, 255, 255))
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 Game.run = False
                 break
-
-        Game.window.fill((255, 255, 255))
 
         Draw.grid()
         Draw.all()
