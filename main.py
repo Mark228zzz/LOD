@@ -9,10 +9,11 @@ def main():
     pygame.init()
     Game.init_game()
 
-    animal = Animal(9, 7, (0, 0, 0))
+    animal = Animal(9, 7, 10, 10, (255, 0, 0))
 
     while Game.run:
-        pygame.time.delay(150)
+        pygame.time.delay(5)
+        animal.loop()
         Game.window.fill((255, 255, 255))
 
         for event in pygame.event.get():
@@ -20,7 +21,6 @@ def main():
                 Game.run = False
                 break
 
-        Draw.grid()
         Draw.all()
 
         pygame.display.update()
