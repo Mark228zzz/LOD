@@ -5,6 +5,7 @@ from vars import *
 from creatures.animal import Animal
 from random import randint
 from foods.food import Food
+from creatures.predator import Predator
 
 def spawn_food():
     if randint(0, 12) == 0:
@@ -15,6 +16,7 @@ def main():
     Game.init_game()
 
     animal = Animal(300, 300, 10, 10, (255, 0, 0))
+    predator = Predator(240, 100, 15, 15, (0, 0, 0))
 
     while Game.run:
         pygame.time.delay(1)
