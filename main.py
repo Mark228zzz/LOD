@@ -23,6 +23,9 @@ def main():
         for animal in List.animals:
             animal.loop()
 
+        for predator in List.predators:
+            predator.loop()
+
         Game.window.fill((255, 255, 255))
 
         for event in pygame.event.get():
