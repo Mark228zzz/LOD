@@ -70,9 +70,6 @@ class Animal(Creature):
             else:
                 self.random_move()
 
-    def move_to_food(self):
-        pass
-
     def random_move(self):
         rand_x, rand_y = self.x, self.y
         rand_x, rand_y = rand_x + randint(-self.step, self.step), rand_y + randint(-self.step, self.step)
