@@ -4,6 +4,7 @@ from vars import *
 class Predator(Creature):
     def __init__(self, x: int, y: int, width: int, height: int, color: tuple, alive: bool = True):
         super().__init__(x, y, width, height, color, alive)
+        List.predators.append(self)
 
     def loop(self):
         pass

@@ -6,3 +6,4 @@ class List:
     animals = []
     obstacles = []
     foods = []
+    predators = []
