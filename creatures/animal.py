@@ -1,9 +1,6 @@
 from creatures.creature import Creature
 from random import randint
 from vars import *
-import logging
-
-logging.basicConfig(filename='logs.txt', level=logging.INFO, format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 
 
 class Animal(Creature):
@@ -14,8 +11,6 @@ class Animal(Creature):
         self.step = step
 
         List.animals.append(self)
-
-        logging.info(f'{self.__class__} was created.')
 
     def loop(self):
         if self.alive:
@@ -81,6 +76,5 @@ class Animal(Creature):
 
     def die(self):
         List.animals.remove(self)
-        logging.info(f'{self.__class__} dead.')
         return super().die()
 
