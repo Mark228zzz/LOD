@@ -2,8 +2,6 @@ import pygame
 from draw import Draw
 from game import Game
 from vars import *
-from random import randint
-from foods.food import Food
 
 def main():
     pygame.init()
@@ -21,7 +19,7 @@ def main():
 
         Game.loops() # make loop for every objects
 
-        Game.spawn_food() # spawning food every itteration
+        Game.spawn_food() # spawning food every iteration
         Draw.all() # draw all objects on the map
 
         pygame.display.update()
