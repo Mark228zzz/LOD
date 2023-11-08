@@ -7,9 +7,6 @@ class Predator(Creature):
         super().__init__(x, y, width, height, color, alive)
         List.predators.append(self)
 
-    def loop(self):
-        pass
-
     def check(self):
         pass
 
@@ -29,6 +26,5 @@ class Predator(Creature):
             self.x, self.y = rand_x, rand_y
 
     def die(self):
-        self.alive = False
         List.predators.remove(self)
-        del self
+        return super().die()
