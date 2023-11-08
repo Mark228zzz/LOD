@@ -64,7 +64,7 @@ class Animal(Creature):
 
                 if self.x == nearest_food.x and self.y == nearest_food.y:
                     self.satiety += 580
-                    List.foods.remove(nearest_food)
+                    nearest_food.eaten()
             else:
                 self.random_move()
 
