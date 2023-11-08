@@ -14,3 +14,11 @@ class Game:
 
         animal = Animal(300, 300, 10, 10, (255, 0, 0))
         predator = Predator(240, 100, 15, 15, (0, 0, 0))
+
+    @staticmethod
+    def loops():
+        for animal in List.animals:
+            animal.loop()
+
+        for predator in List.predators:
+            predator.loop()
