@@ -2,21 +2,15 @@ import pygame
 from draw import Draw
 from game import Game
 from vars import *
-from creatures.animal import Animal
 from random import randint
 from foods.food import Food
-from creatures.predator import Predator
-
-def spawn_food():
-    if randint(0, 12) == 0:
-        food = Food(randint(0, Const.WIDTH), randint(0, Const.HEIGHT), 10, 10, (255, 0, 255))
 
 def main():
     pygame.init()
-    Game.init_game()
+    Game.init_game() # creates all the necessary things for start
 
     while Game.run:
-        pygame.time.delay(1)
+        pygame.time.delay(1) # pause the game for 1 millisecond
 
         Game.window.fill((255, 255, 255)) # fill all map
 
@@ -27,7 +21,7 @@ def main():
 
         Game.loops() # make loop for every objects
 
-        spawn_food()
+        Game.spawn_food() # spawning food every itteration
         Draw.all() # draw all objects on the map
 
         pygame.display.update()

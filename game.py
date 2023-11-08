@@ -2,6 +2,8 @@ import pygame
 from vars import *
 from creatures.animal import Animal
 from creatures.predator import Predator
+from foods.food import Food
+from random import randint
 
 class Game:
     run = True
@@ -22,3 +24,8 @@ class Game:
 
         for predator in List.predators:
             predator.loop()
+
+    @staticmethod
+    def spawn_food():
+        if randint(0, 12) == 0:
+            _ = Food(randint(0, Const.WIDTH), randint(0, Const.HEIGHT), 10, 10, (255, 0, 255))
