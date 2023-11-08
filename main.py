@@ -15,9 +15,6 @@ def main():
     pygame.init()
     Game.init_game()
 
-    animal = Animal(300, 300, 10, 10, (255, 0, 0))
-    predator = Predator(240, 100, 15, 15, (0, 0, 0))
-
     while Game.run:
         pygame.time.delay(1)
         print(len(List.animals))
