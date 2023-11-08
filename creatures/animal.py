@@ -77,6 +77,5 @@ class Animal(Creature):
             self.x, self.y = rand_x, rand_y
 
     def die(self):
-        self.alive = False
         List.animals.remove(self)
-        del self
+        return super().die()
