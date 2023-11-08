@@ -17,17 +17,18 @@ def main():
 
     while Game.run:
         pygame.time.delay(1)
-        print(len(List.animals))
 
-        Game.window.fill((255, 255, 255))
+        Game.window.fill((255, 255, 255)) # fill all map
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 Game.run = False
                 break
 
+        Game.loops() # make loop for every objects
+
         spawn_food()
-        Draw.all()
+        Draw.all() # draw all objects on the map
 
         pygame.display.update()
 
