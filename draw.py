@@ -20,5 +20,7 @@ class Draw:
         font = pygame.font.SysFont('arial', 10)
         info_animal = font.render(f'Animals: {len(List.animals)}', True, (0, 0, 0), (200, 200, 200))
         info_food = font.render(f'Foods: {len(List.foods)}', True, (0, 0, 0), (200, 200, 200))
+        info_predator = font.render(f'Predators: {len(List.predators)}', True, (0, 0, 0), (200, 200, 200))
         Game.window.blit(info_animal, (5, 5))
         Game.window.blit(info_food, (5, 15))
+        Game.window.blit(info_predator, (5, 25))
