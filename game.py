@@ -1,3 +1,4 @@
+import os
 import pygame
 from vars import *
 from creatures.animal import Animal
@@ -11,6 +12,9 @@ class Game:
 
     @staticmethod
     def init_game():
+        with open('logs.txt', 'w') as logs: # reload logs
+            logs.write('')
+
         Game.window = pygame.display.set_mode((Const.WIDTH, Const.HEIGHT), pygame.RESIZABLE)
         pygame.display.set_caption("WINDOW")
 
