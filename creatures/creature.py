@@ -16,5 +16,5 @@ class Creature:
 
     def die(self):
         self.alive = False
+        logging.info(f'{self.__class__} dead.')
         del self
-        logging.info(f'{self.__class__} was created.')
