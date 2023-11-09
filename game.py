@@ -1,10 +1,10 @@
-import os
 import pygame
 from vars import *
 from creatures.animal import Animal
 from creatures.predator import Predator
 from foods.food import Food
 from random import randint
+
 
 class Game:
     run = True
