@@ -7,3 +7,4 @@ class List:
     obstacles = []
     foods = []
     predators = []
+    windows = []

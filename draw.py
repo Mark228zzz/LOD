@@ -1,6 +1,7 @@
 import pygame
 from game import Game
-from vars import *
+from vars import List
+from windows.debug_window import DebugWindow
 
 
 class Draw:
