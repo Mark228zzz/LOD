@@ -19,8 +19,8 @@ class Game:
         Game.window = pygame.display.set_mode((Const.WIDTH, Const.HEIGHT), pygame.RESIZABLE)
         pygame.display.set_caption("LOD GAME")
 
-        animal = Animal(300, 300, 10, 10, (255, 0, 0))
-        predator = Predator(240, 100, 15, 15, (0, 0, 0))
+        animal = Animal(randint(1, Const.WIDTH), randint(1, Const.HEIGHT), 10, 10, (255, 0, 0))
+        predator = Predator(randint(1, Const.WIDTH), randint(1, Const.HEIGHT), 15, 15, (0, 0, 0))
 
         window = DebugWindow(Game.window, True) # create debug window
 
