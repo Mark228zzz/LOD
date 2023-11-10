@@ -23,6 +23,7 @@ class Animal(Creature):
             self.die()
         else:
             self.satiety -= 1
+        self.escape_from_predator()
 
     def brain(self):
         if self.satiety <= 1000:
@@ -68,6 +69,24 @@ class Animal(Creature):
                     nearest_food.eaten()
             else:
                 self.random_move()
+
+    def escape_from_predator(self):
+        escape_radius = 100
+        for predator in List.predators:
+            if ((predator.x - self.x)**2 + (predator.y - self.y)**2)**0.5 < escape_radius:
+                self.run_away(predator)
+                return
+
+    def run_away(self, predator):
+        move_x, move_y = self.x - predator.x, self.y - predator.y
+
+        magnitude = (move_x**2 + move_y**2)**0.5
+        if magnitude != 0:
+            move_x, move_y = move_x / magnitude, move_y / magnitude
+
+        new_x, new_y = self.x + move_x * self.step, self.y + move_y * self.step
+        if 0 < new_x < Const.WIDTH and 0 < new_y < Const.HEIGHT:
+            self.x, self.y = int(new_x), int(new_y)
 
     def random_move(self):
         rand_x, rand_y = self.x, self.y

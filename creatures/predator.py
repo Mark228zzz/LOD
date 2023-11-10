@@ -60,7 +60,7 @@ class Predator(Creature):
             self.x, self.y = new_x, new_y
 
             if self.x == nearest_prey.x and self.y == nearest_prey.y:
-                self.satiety += 400
+                self.satiety += 900
                 nearest_prey.die()
 
     def random_move(self):
