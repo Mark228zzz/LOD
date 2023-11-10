@@ -21,13 +21,14 @@ class Animal(Creature):
     def check(self):
         if self.satiety <= 1:
             self.die()
+        else:
+            self.satiety -= 1
 
     def brain(self):
         if self.satiety <= 1000:
             self.find_food()
         else:
             self.random_move()
-        self.satiety -= 1
 
     def reproduction(self):
         if self.satiety >= 1200:
