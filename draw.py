@@ -13,3 +13,5 @@ class Draw:
             pygame.draw.rect(Game.window, food.color, (food.x, food.y, food.width, food.height))
         for predator in List.predators: # draw all predators that are alive
             pygame.draw.rect(Game.window, predator.color, (predator.x, predator.y, predator.width, predator.height))
+        for window in List.windows:
+            window.draw()

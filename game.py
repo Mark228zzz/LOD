@@ -3,6 +3,7 @@ from vars import *
 from creatures.animal import Animal
 from creatures.predator import Predator
 from foods.food import Food
+from windows.debug_window import DebugWindow
 from random import randint
 
 
@@ -20,6 +21,8 @@ class Game:
 
         animal = Animal(300, 300, 10, 10, (255, 0, 0))
         predator = Predator(240, 100, 15, 15, (0, 0, 0))
+
+        window = DebugWindow(Game.window, True)
 
     @staticmethod
     def loops():

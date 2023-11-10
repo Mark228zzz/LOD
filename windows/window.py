@@ -7,5 +7,4 @@ class Window:
         self.visible = visible
         List.windows.append(self)
 
-    def draw(self):
-        if not self.visible: return
+    def draw(self): ...
