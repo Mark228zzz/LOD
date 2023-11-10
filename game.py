@@ -22,7 +22,7 @@ class Game:
         animal = Animal(300, 300, 10, 10, (255, 0, 0))
         predator = Predator(240, 100, 15, 15, (0, 0, 0))
 
-        window = DebugWindow(Game.window, True)
+        window = DebugWindow(Game.window, True) # create debug window
 
     @staticmethod
     def loops():
