@@ -6,7 +6,7 @@ class Predator(Creature):
     def __init__(self, x: int, y: int, width: int, height: int, color: tuple, alive: bool = True, step: int = 1):
         super().__init__(x, y, width, height, color, alive)
         self.satiety = 2500
-        self.search_radius = 300
+        self.search_radius = 250
         self.step = step
 
         List.predators.append(self)
@@ -21,11 +21,11 @@ class Predator(Creature):
         if self.satiety <= 1:
             self.die()
         else:
-            self.satiety -= 1
+            self.satiety -= 2
 
     def brain(self):
         if self.satiety <= 2500:
-            self.find_food()
+            self.hunt()
         else:
             self.random_move()
 
@@ -34,36 +34,34 @@ class Predator(Creature):
             if randint(1, 100) == 1:
                 predator = Predator(self.x, self.y, self.width, self.height, self.color)
 
-    def find_food(self):
-        nearest_food = None
+    def hunt(self):
+        nearest_prey = None
         nearest_distance = float('inf')
 
-        for food in List.foods:
-            distance = ((food.x - self.x)**2 + (food.y - self.y)**2)**0.5
+        for animal in List.animals:
+            distance = ((animal.x - self.x) ** 2 + (animal.y - self.y) ** 2) ** 0.5
             if distance < self.search_radius and distance < nearest_distance:
-                nearest_food = food
+                nearest_prey = animal
                 nearest_distance = distance
 
-        if nearest_food is not None:
+        if nearest_prey is not None:
             new_x, new_y = self.x, self.y
 
-            if new_x < nearest_food.x:
+            if new_x < nearest_prey.x:
                 new_x += 1
-            elif new_x > nearest_food.x:
+            elif new_x > nearest_prey.x:
                 new_x -= 1
 
-            if new_y < nearest_food.y:
+            if new_y < nearest_prey.y:
                 new_y += 1
-            elif new_y > nearest_food.y:
+            elif new_y > nearest_prey.y:
                 new_y -= 1
 
             self.x, self.y = new_x, new_y
 
-            if self.x == nearest_food.x and self.y == nearest_food.y:
-                self.satiety += 450
-                nearest_food.eaten()
-        else:
-            self.random_move()
+            if self.x == nearest_prey.x and self.y == nearest_prey.y:
+                self.satiety += 400
+                nearest_prey.die()
 
     def random_move(self):
         rand_x, rand_y = self.x, self.y
