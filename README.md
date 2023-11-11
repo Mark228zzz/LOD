@@ -10,12 +10,12 @@
 
 ### For download this project you need to download `pygame` with the following command:
 1. For Linux: `pip install pygame`
-2. For windows: go to `https://www.pygame.org` then find download, then press to download pygame
+2. For windows: go to ```https://www.pygame.org``` then find download, then press to download pygame
 
 
 ## Usage
 
-### For using this project you need to run the `main.py` file after download ``pygame``.
+### For using this project you need to run the `main.py` file after download `pygame`.
 
 
 ## How to play
