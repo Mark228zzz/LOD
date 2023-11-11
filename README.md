@@ -20,3 +20,8 @@
 ## How to play
 
 ### After download `pygame` and run the `main.py` file, you can see how creatures are developing, reproducting, dieing and eating.
+
+
+## Logs
+
+### This project has `logs.txt` contains information about the creation and death of creatures, food, etc. After starting the game, the `logs.txt` are cleared.
