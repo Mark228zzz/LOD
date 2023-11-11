@@ -10,6 +10,6 @@ class DebugWindowButton(Button):
     def action(self):
         for window in List.windows:
             if window.name == 'Debug Window':
-                window.visible = False
+                window.visible = not window.visible
                 break
         return super().action()
