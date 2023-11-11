@@ -13,7 +13,7 @@ class Food:
 
         logging.info(f'{self.__class__} was created.')
 
-    def eaten(self):
+    def eaten(self): # when some object ate this food, run this method
         List.foods.remove(self)
         logging.info(f'{self.__class__} was eaten.')
         del self
