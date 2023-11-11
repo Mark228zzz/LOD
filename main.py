@@ -27,7 +27,6 @@ def main():
         #if Const.STEP % 25 == 0:
         #    with open('logs2.txt', 'a') as logs2:
         #        logs2.write(round(len(List.animals)/10) * 'A' + ' | ' + round(len(List.predators)/10) * 'P' + ' | ' + round(len(List.foods)/10) * 'F')
-        #        #logs2.write(f" - {len(List.animals)}")
         #        logs2.write('\n')
 
         pygame.display.update()
