@@ -11,9 +11,9 @@ class DebugWindow(Window):
             cls._instance = super(DebugWindow, cls).__new__(cls)
         return cls._instance
 
-    def __init__(self, game_window, visible: bool = False):
+    def __init__(self, name: str, game_window, visible: bool = False):
         if not hasattr(self, 'initialized'): # Check for already completed initialization
-            super().__init__(game_window, visible)
+            super().__init__(name, game_window, visible)
 
     def draw(self):
         if not self.visible: return # checking if the game can draw this window

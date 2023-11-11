@@ -25,9 +25,9 @@ class Game:
         animal = Animal(randint(1, Const.WIDTH), randint(1, Const.HEIGHT), 10, 10, (255, 0, 0))
         predator = Predator(randint(1, Const.WIDTH), randint(1, Const.HEIGHT), 15, 15, (0, 0, 0))
 
-        window = DebugWindow(Game.window, True) # create debug window
+        debug_window = DebugWindow('Debug Window', Game.window, True) # create debug window
 
-        button = DebugWindowButton(Game.window, 100, 2, 165, 30, (0, 150, 0), (0, 180, 0), (255, 255, 255), "ENABLE DEBUG WINDOW")
+        button = DebugWindowButton(Game.window, 100, 2, 165, 30, inactive_color=(0, 150, 0), active_color=(0, 180, 0), text_color=(255, 255, 255), debug_window=debug_window, text="ENABLE DEBUG WINDOW")
 
     @staticmethod
     def loops(): # do loops for all objects in the game
