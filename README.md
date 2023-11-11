@@ -32,4 +32,4 @@
 #        logs2.write(round(len(List.animals)/10) * 'A' + ' | ' + round(len(List.predators)/10) * 'P' + ' | ' + round(len(List.foods)/10) * 'F')
 #        logs2.write('\n')
 ```
-<span style="color:blue">Be careful when using this log because it is not cleared and may fill up your computer's memory.</span>
+<span style="color:blue;">Be careful when using this log because it is not cleared and may fill up your computer's memory.</span>
