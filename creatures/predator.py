@@ -1,5 +1,5 @@
 from creatures.creature import Creature
-from vars import *
+from vars import List, Const
 from random import randint
 
 class Predator(Creature):

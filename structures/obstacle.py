@@ -1,5 +1,5 @@
 from structures.structure import Structure
-from vars import *
+from vars import List
 
 
 class Obstacle(Structure):

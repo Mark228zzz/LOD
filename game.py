@@ -1,5 +1,5 @@
 import pygame
-from vars import *
+from vars import List, Const
 from creatures.animal import Animal
 from creatures.predator import Predator
 from foods.food import Food

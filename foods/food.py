@@ -1,4 +1,4 @@
-from vars import *
+from vars import List
 import logging
 
 logging.basicConfig(filename='logs.txt', level=logging.INFO, format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')

@@ -1,6 +1,6 @@
 from creatures.creature import Creature
 from random import randint
-from vars import *
+from vars import List, Const
 
 
 class Animal(Creature):
