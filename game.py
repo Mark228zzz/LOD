@@ -16,7 +16,7 @@ class Game:
         with open('logs.txt', 'w') as logs: # reload logs
             logs.write('')
 
-        Game.window = pygame.display.set_mode((Const.WIDTH, Const.HEIGHT), pygame.RESIZABLE)
+        Game.window = pygame.display.set_mode((Const.WIDTH, Const.HEIGHT))
         pygame.display.set_caption("LOD GAME")
 
         animal = Animal(randint(1, Const.WIDTH), randint(1, Const.HEIGHT), 10, 10, (255, 0, 0))

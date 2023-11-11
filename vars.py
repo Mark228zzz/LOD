@@ -1,5 +1,5 @@
 class Const:
-    WIDTH, HEIGHT = 800, 600
+    WIDTH, HEIGHT = 850, 650
     STEP: int = 0
 
 class List:
