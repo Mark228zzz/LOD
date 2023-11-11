@@ -3,7 +3,7 @@
 
 ## Overview
 
-### LOD is a Python-based modeling project that includes various elements such as creatures, food, structures, and windows. In the game, creatures fight for life, reproducte, die, eat and etc.
+### LOD is a Python-based modeling project that includes various elements such as creatures, food, structures, and windows. In the game, creatures fight for life, reproducte, die, eat and etc. the game was made using `pygame`. **ggGG11r3**
 
 
 ## Installation
