@@ -8,7 +8,7 @@ class DebugWindow(Window):
 
     def __new__(cls, *args, **kwargs):
         if cls._instance is None: # checking whether an instance of this class has been created before
-            cls._instance = super(Window, cls).__new__(cls)
+            cls._instance = super(DebugWindow, cls).__new__(cls)
         return cls._instance
 
     def __init__(self, game_window, visible: bool = False):
