@@ -7,6 +7,10 @@
 
 
 ## Images
+### This are images.
+- red and green is `animal`. Green is mutation
+- black is `predator`
+- pink is `food`
 ![](/_images/github_image1.png)
 ![](/_images/github_image2.png)
 ![](/_images/github_image3.png)
