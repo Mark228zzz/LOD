@@ -26,7 +26,7 @@
 
 ### This project has `logs.txt` contains information about the creation and death of creatures, food, etc. After starting the game, the `logs.txt` are cleared.
 ### This project has `logs2.txt` contains creature and food population graph.
-### `*Be careful when using this log because it is not cleared and may fill up your computer's memory!*`
+### `Be careful when using this log because it is not cleared and may fill up your computer's memory!`
 ### For use this logs you need to uncomment in the `main.py` file this code:
 ```py
 #if Const.STEP % 25 == 0:
