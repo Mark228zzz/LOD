@@ -50,4 +50,4 @@ class Button:
             text_rect.center = ((self.x + (self.width / 2)), (self.y + (self.height / 2)))
             self.game_window.blit(text_surf, text_rect)
 
-    def action(self): print('gg')
+    def action(self): ...
