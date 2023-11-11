@@ -15,6 +15,9 @@ class Button:
         self.text = text
         self.font_size = font_size
 
+        self.is_inactive: bool
+        self.is_active: bool
+
         List.buttons.append(self)
 
     def loop(self):
@@ -22,7 +25,8 @@ class Button:
         click = pygame.mouse.get_pressed()
 
         if self.x + self.width > mouse[0] > self.x and self.y + self.height > mouse[1] > self.y:
-            pygame.draw.rect(self.game_window, self.active_color, (self.x, self.y, self.width, self.height))
+            self.is_inactive = False
+            self.is_active = True
             if click[0] == 1 and not self.is_clicked:
                 self.is_clicked = True
                 if self.action is not None:
@@ -30,14 +34,20 @@ class Button:
             elif click[0] == 0:
                 self.is_clicked = False
         else:
-            pygame.draw.rect(self.game_window, self.inactive_color, (self.x, self.y, self.width, self.height))
+            self.is_inactive = True
+            self.is_active = False
 
     def draw(self):
         if self.text != '':
+            if self.is_inactive:
+                pygame.draw.rect(self.game_window, self.inactive_color, (self.x, self.y, self.width, self.height))
+            if self.is_active:
+                pygame.draw.rect(self.game_window, self.active_color, (self.x, self.y, self.width, self.height))
+
             font = pygame.font.SysFont("freesansbold", self.font_size)
             text_surf = font.render(self.text, True, self.text_color)
             text_rect = text_surf.get_rect()
             text_rect.center = ((self.x + (self.width / 2)), (self.y + (self.height / 2)))
             self.game_window.blit(text_surf, text_rect)
 
-    def action(self): ...
+    def action(self): print('gg')
