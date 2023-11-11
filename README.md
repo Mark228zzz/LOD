@@ -15,7 +15,7 @@
 
 ## Usage
 
-### For using this project you need to run the `main.py` file after download pygame.
+### For using this project you need to run the `main.py` file after download ``pygame``.
 
 
 ## How to play
