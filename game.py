@@ -27,7 +27,7 @@ class Game:
 
         window = DebugWindow(Game.window, True) # create debug window
 
-        button = Button(10, 10, 100, 50, (255, 100, 100), (255, 150, 150), "TEST")
+        button = Button(Game.window, 100, 2, 165, 30, (0, 150, 0), (0, 180, 0), (255, 255, 255), "ENABLE DEBUG WINDOW")
 
     @staticmethod
     def loops(): # do loops for all objects in the game
@@ -36,6 +36,9 @@ class Game:
 
         for predator in List.predators:
             predator.loop()
+
+        for button in List.buttons:
+            button.loop()
 
     @staticmethod
     def spawn_food(): # random spawn food
