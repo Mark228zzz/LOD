@@ -25,3 +25,4 @@
 ## Logs
 
 ### This project has `logs.txt` contains information about the creation and death of creatures, food, etc. After starting the game, the `logs.txt` are cleared.
+### This project has `logs2.txt` contains creature and food population graph.
