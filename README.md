@@ -7,7 +7,9 @@
 
 
 ## Images
-![Example Image](~/Pictures/Screenshots/github_image1.png)
+![Image from gameplay](/_images/github_image1.png)
+![Image from gameplay](/_images/github_image2.png)
+![Image from gameplay](/_images/github_image3.png)
 
 
 ## Installation
