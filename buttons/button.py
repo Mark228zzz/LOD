@@ -1,4 +1,5 @@
 import pygame
+from vars import List
 
 
 class Button:
@@ -10,6 +11,8 @@ class Button:
         self.inactive_color = inactive_color
         self.active_color = active_color
         self.text = text
+
+        List.buttons.append(self)
 
     def loop(self, screen):
         mouse = pygame.mouse.get_pos()

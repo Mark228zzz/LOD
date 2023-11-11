@@ -14,3 +14,5 @@ class Draw:
             pygame.draw.rect(Game.window, predator.color, (predator.x, predator.y, predator.width, predator.height))
         for window in List.windows:
             window.draw()
+        for button in List.buttons:
+            button.draw()

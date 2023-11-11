@@ -4,6 +4,7 @@ from creatures.animal import Animal
 from creatures.predator import Predator
 from foods.food import Food
 from windows.debug_window import DebugWindow
+from buttons.button import Button
 from random import randint
 
 
@@ -25,6 +26,8 @@ class Game:
         predator = Predator(randint(1, Const.WIDTH), randint(1, Const.HEIGHT), 15, 15, (0, 0, 0))
 
         window = DebugWindow(Game.window, True) # create debug window
+
+        button = Button(10, 10, 100, 50, (255, 100, 100), (255, 150, 150), "TEST")
 
     @staticmethod
     def loops(): # do loops for all objects in the game

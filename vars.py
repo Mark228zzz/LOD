@@ -8,3 +8,4 @@ class List:
     foods = []
     predators = []
     windows = []
+    buttons = []
