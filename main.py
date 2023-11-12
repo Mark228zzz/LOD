@@ -1,7 +1,7 @@
 import pygame
 from draw import Draw
 from game import Game
-from vars import Const
+from vars import Const, List
 
 def main():
     pygame.init()
