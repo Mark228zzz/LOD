@@ -27,7 +27,7 @@ class Game:
 
         debug_window = DebugWindow('Debug Window', Game.window, True) # create debug window
 
-        button = DebugWindowButton(Game.window, 100, 2, 120, 30, inactive_color=(0, 150, 0), active_color=(0, 180, 0), text_color=(255, 255, 255), debug_window=debug_window, text="DEBUG WINDOW")
+        button = DebugWindowButton(Game.window, 120, 2, 60, 30, inactive_color=(0, 150, 0), active_color=(0, 180, 0), text_color=(255, 255, 255), debug_window=debug_window, text="DEBUG")
 
     @staticmethod
     def loops(): # do loops for all objects in the game
