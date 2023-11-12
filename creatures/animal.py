@@ -9,6 +9,7 @@ class Animal(Creature):
         self.satiety = 1000
         self.search_radius = 250
         self.step = step
+        self.nutritional_value = randint(250, 1200)
 
         List.animals.append(self)
 
@@ -66,6 +67,7 @@ class Animal(Creature):
 
                 if self.x == nearest_food.x and self.y == nearest_food.y:
                     self.satiety += nearest_food.nutritional_value
+                    self.nutritional_value += int(nearest_food.nutritional_value/35)
                     nearest_food.eaten()
             else:
                 self.random_move()
