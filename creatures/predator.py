@@ -33,7 +33,7 @@ class Predator(Creature):
     def reproduction(self):
         if self.satiety >= 2800:
             if randint(1, 100) == 1:
-                predator = Predator(self.x, self.y, self.width, self.height, self.color)
+                predator = Predator(self.x, self.y, self.width, self.height, (randint(0, 35), randint(0, 35), randint(0, 35)))
 
     def hunt(self):
         nearest_prey = None
@@ -64,6 +64,8 @@ class Predator(Creature):
                 self.satiety += nearest_prey.nutritional_value
                 self.nutritional_value += int(nearest_prey.nutritional_value/45)
                 nearest_prey.die()
+        else:
+            self.random_move()
 
     def random_move(self):
         rand_x, rand_y = self.x, self.y

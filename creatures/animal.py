@@ -36,9 +36,9 @@ class Animal(Creature):
         if self.satiety >= 1200:
             if randint(1, 45) == 1:
                 if randint(1, 100) == 1:
-                    animal = Animal(self.x, self.y, self.width, self.height, (0, 255, 0))
+                    animal = Animal(self.x, self.y, self.width+randint(1, 8), self.height+randint(1, 8), (0, randint(120, 255), 0), step=randint(2, 5))
                 else:
-                    animal = Animal(self.x, self.y, self.width, self.height, self.color, step=4)
+                    animal = Animal(self.x, self.y, self.width, self.height, self.color, step=randint(1, 4))
 
     def find_food(self):
             nearest_food = None
@@ -99,4 +99,3 @@ class Animal(Creature):
     def die(self):
         List.animals.remove(self)
         return super().die()
-
