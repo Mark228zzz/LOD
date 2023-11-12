@@ -34,7 +34,7 @@ class Animal(Creature):
 
     def reproduction(self):
         if self.satiety >= 1200:
-            if randint(1, 25) == 1:
+            if randint(1, 45) == 1:
                 if randint(1, 100) == 1:
                     animal = Animal(self.x, self.y, self.width, self.height, (0, 255, 0))
                 else:
