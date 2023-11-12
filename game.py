@@ -22,8 +22,8 @@ class Game:
         pygame.display.set_caption("LOD GAME")
 
         # add objects in the start game
-        animal = Animal(randint(1, Const.WIDTH), randint(1, Const.HEIGHT), 10, 10, (255, 0, 0))
-        predator = Predator(randint(1, Const.WIDTH), randint(1, Const.HEIGHT), 15, 15, (0, 0, 0))
+        #animal = Animal(randint(1, Const.WIDTH), randint(1, Const.HEIGHT), 10, 10, (255, 0, 0))
+        #predator = Predator(randint(1, Const.WIDTH), randint(1, Const.HEIGHT), 15, 15, (0, 0, 0))
 
         debug_window = DebugWindow('Debug Window', Game.window, True) # create debug window
 

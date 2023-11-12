@@ -44,7 +44,7 @@ class Button:
             if self.is_active:
                 pygame.draw.rect(self.game_window, self.active_color, (self.x, self.y, self.width, self.height))
 
-            font = pygame.font.SysFont("freesansbold", self.font_size)
+            font = pygame.font.SysFont("arial", self.font_size)
             text_surf = font.render(self.text, True, self.text_color)
             text_rect = text_surf.get_rect()
             text_rect.center = ((self.x + (self.width / 2)), (self.y + (self.height / 2)))
