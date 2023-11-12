@@ -1,1976 +1,774 @@
-12-Nov-23 05:17:17 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:17 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:18 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:20 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:21 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:22 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:23 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:23 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:23 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:24 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:24 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:25 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:25 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:25 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:25 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:25 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:26 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:26 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:26 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:26 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:27 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:27 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:27 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:28 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:28 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:28 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:29 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:29 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:29 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:29 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:29 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:29 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:29 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:29 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:30 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:30 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:30 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:30 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:30 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:30 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:30 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:30 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:30 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:30 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:30 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:30 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:30 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:31 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:31 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:31 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:31 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:31 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:32 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:32 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:32 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:32 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:32 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:32 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:33 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:33 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:33 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:33 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:33 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:33 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:33 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:33 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:33 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:33 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:33 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:34 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:34 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:34 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:34 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:34 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:34 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:34 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:34 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:34 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:34 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:35 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:35 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:35 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:35 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:35 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:35 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:35 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:35 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:35 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:35 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:35 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:35 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:35 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:35 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:35 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:35 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:35 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:36 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:36 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:36 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:36 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:36 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:36 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:36 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:37 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:37 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:37 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:37 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:38 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:38 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:38 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:38 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:38 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:38 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:38 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:38 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:39 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:39 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:39 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:39 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:39 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:39 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:39 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:39 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:39 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:39 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:39 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:39 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:39 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:39 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:39 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:39 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:39 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:39 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:39 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:40 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:40 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:40 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:40 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:40 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:40 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:40 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:40 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:40 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:40 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:41 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:41 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:41 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:41 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:41 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:41 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:41 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:41 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:41 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:41 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:41 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:41 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:41 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:41 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:41 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:41 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:41 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:42 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:42 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:42 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:42 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:42 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:42 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:42 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:42 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:42 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:42 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:42 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:42 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:42 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:42 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:42 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:42 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:43 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:43 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:43 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:43 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:43 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:43 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:43 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:43 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:43 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:43 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:43 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:43 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:43 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:43 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:43 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:43 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:43 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:43 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:43 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:43 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:43 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:43 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:43 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:43 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:44 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:44 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:44 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:44 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:44 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:44 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:44 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:44 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:44 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:44 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:44 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:44 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:44 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:44 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:44 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:44 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:44 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:44 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:44 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:44 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:44 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:44 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:45 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:45 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:45 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:45 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:45 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:45 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:45 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:45 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:45 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:46 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:46 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:46 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:46 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:46 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:46 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:46 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:46 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:46 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:46 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:46 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:46 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:46 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:46 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:46 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:46 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:46 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:46 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:46 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:46 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:47 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:47 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:47 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:47 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:47 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:47 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:47 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:47 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:47 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:47 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:47 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:47 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:47 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:47 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:47 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:47 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:47 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:47 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:47 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:47 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:48 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:48 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:48 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:48 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:48 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:48 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:48 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:48 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:49 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:49 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:49 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:49 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:49 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:49 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:50 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:50 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:50 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:51 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:51 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:52 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:53 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:53 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:53 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:53 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:53 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:53 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:53 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:54 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:55 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:55 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:55 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:56 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:56 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:57 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:57 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:57 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:57 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:57 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:57 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:58 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:59 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:59 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:59 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:59 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:17:59 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:17:59 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:00 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:00 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:00 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:00 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:00 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:18:00 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:00 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:00 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:01 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:01 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:01 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:01 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:01 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:01 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:01 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:18:01 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:01 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:01 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:01 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'foods.food.Food'> was eaten.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:02 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:02 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:02 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:02 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:03 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:03 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:03 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:03 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:03 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:03 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:03 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:03 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:04 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.animal.Animal'> dead.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:04 - <class 'creatures.predator.Predator'> was created.
-12-Nov-23 05:18:04 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:05 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:05 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:05 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:05 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:05 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:05 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:06 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:06 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:07 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:07 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:08 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:08 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:09 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:10 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:10 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:10 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:11 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:12 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:13 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:13 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:13 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:13 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:13 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:14 - <class 'creatures.predator.Predator'> dead.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:14 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:15 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:16 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:16 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:16 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:16 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:16 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:16 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:16 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:16 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:16 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:16 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:16 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:17 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:18 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:19 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:20 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:21 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:22 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
-12-Nov-23 05:18:23 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:54 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:54 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:55 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:56 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:56 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:57 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:57 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:57 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:57 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:57 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:57 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:57 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:58 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:58 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:59 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:59 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:59 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:59 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:20:59 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:20:59 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:20:59 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:00 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:00 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:01 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:01 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:02 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:02 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:03 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:04 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:04 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:05 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:06 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:07 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:07 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:07 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:08 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:08 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:08 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:08 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:08 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:09 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:09 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:09 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:09 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:09 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:09 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:09 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:09 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:09 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:09 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:09 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:09 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:09 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:09 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:09 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:09 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:09 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:09 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:10 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:10 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:10 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:10 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:10 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:10 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:10 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:10 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:10 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:10 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:10 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:10 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:10 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:10 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:10 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:10 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:11 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:11 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:11 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:11 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:11 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:11 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:11 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:11 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:11 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:11 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:11 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:12 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:12 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:12 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:12 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:12 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:12 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:12 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:13 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:13 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:13 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:13 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:13 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:13 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:13 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:13 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:13 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:13 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:13 - <class 'foods.food.Food'> was eaten.
+12-Nov-23 05:21:13 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:13 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:13 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:13 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:13 - <class 'creatures.animal.Animal'> was created.
+12-Nov-23 05:21:13 - <class 'foods.food.Food'> was created.
+12-Nov-23 05:21:13 - <class 'creatures.predator.Predator'> was created.
+12-Nov-23 05:21:13 - <class 'creatures.animal.Animal'> dead.
+12-Nov-23 05:21:13 - <class 'creatures.animal.Animal'> dead.

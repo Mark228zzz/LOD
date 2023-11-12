@@ -4,10 +4,10 @@ from vars import List, Const
 
 
 class Animal(Creature):
-    def __init__(self, x: int, y: int, width: int, height: int, color: tuple, alive: bool = True, step: int = 1):
+    def __init__(self, x: int, y: int, width: int, height: int, color: tuple, alive: bool = True, step: int = 1, search_radius: int = 255):
         super().__init__(x, y, width, height, color, alive)
         self.satiety = 1000
-        self.search_radius = 250
+        self.search_radius = search_radius
         self.step = step
         self.nutritional_value = randint(250, 1200)
 
@@ -34,11 +34,11 @@ class Animal(Creature):
 
     def reproduction(self):
         if self.satiety >= 1200:
-            if randint(1, 45) == 1:
+            if randint(1, 65) == 1:
                 if randint(1, 100) == 1:
-                    animal = Animal(self.x, self.y, self.width+randint(1, 8), self.height+randint(1, 8), (0, randint(120, 255), 0), step=randint(2, 5))
+                    animal = Animal(self.x, self.y, self.width+randint(1, 8), self.height+randint(1, 8), (0, randint(120, 255), 0), step=randint(2, 5), search_radius=randint(90, 400))
                 else:
-                    animal = Animal(self.x, self.y, self.width, self.height, self.color, step=randint(1, 4))
+                    animal = Animal(self.x, self.y, self.width, self.height, self.color, step=randint(1, 4), search_radius=randint(180, 280))
 
     def find_food(self):
             nearest_food = None
