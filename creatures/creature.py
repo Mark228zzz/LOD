@@ -9,6 +9,7 @@ class Creature:
         self.width, self.height = width, height
         self.color = color
         self.alive = alive
+        self.nutritional_value: int
 
         logging.info(f'{self.__class__} was created.')
 

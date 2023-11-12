@@ -8,6 +8,7 @@ class Predator(Creature):
         self.satiety = 2500
         self.search_radius = 250
         self.step = step
+        self.nutritional_value = randint(800, 2600)
 
         List.predators.append(self)
 
@@ -60,7 +61,8 @@ class Predator(Creature):
             self.x, self.y = new_x, new_y
 
             if self.x == nearest_prey.x and self.y == nearest_prey.y:
-                self.satiety += 900
+                self.satiety += nearest_prey.nutritional_value
+                self.nutritional_value += int(nearest_prey.nutritional_value/45)
                 nearest_prey.die()
 
     def random_move(self):
