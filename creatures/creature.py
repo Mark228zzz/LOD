@@ -10,6 +10,7 @@ class Creature:
         self.color = color
         self.alive = alive
         self.nutritional_value: int
+        self.age: int = 0
 
         logging.info(f'{self.__class__} was created.')
 

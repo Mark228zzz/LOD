@@ -10,6 +10,7 @@ class Animal(Creature):
         self.search_radius = search_radius
         self.step = step
         self.nutritional_value = randint(250, 1200)
+        self.age: int = 0
 
         List.animals.append(self)
 
@@ -20,10 +21,11 @@ class Animal(Creature):
             self.reproduction()
 
     def check(self):
-        if self.satiety <= 1:
+        if self.satiety <= 1 or self.age >= randint(100, 250):
             self.die()
         else:
             self.satiety -= 1
+            self.age += 1
         self.escape_from_predator()
 
     def brain(self):
