@@ -3,10 +3,10 @@ from vars import List, Const
 from random import randint
 
 class Predator(Creature):
-    def __init__(self, x: int, y: int, width: int, height: int, color: tuple, alive: bool = True, step: int = 1):
+    def __init__(self, x: int, y: int, width: int, height: int, color: tuple, alive: bool = True, step: int = 1, search_radius: int = 250):
         super().__init__(x, y, width, height, color, alive)
         self.satiety = 2500
-        self.search_radius = 250
+        self.search_radius = search_radius
         self.step = step
         self.nutritional_value = randint(800, 2600)
 
