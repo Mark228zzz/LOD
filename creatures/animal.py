@@ -65,7 +65,7 @@ class Animal(Creature):
                 self.x, self.y = new_x, new_y
 
                 if self.x == nearest_food.x and self.y == nearest_food.y:
-                    self.satiety += 580
+                    self.satiety += nearest_food.nutritional_value
                     nearest_food.eaten()
             else:
                 self.random_move()
